@@ -63,6 +63,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [django-articles](backend/modules)
 - [react-native-maps](modules/maps)
 - [react-native-live-camera-filters](modules/live-camera-filters)
+- [react-native-login](modules/login)
 
 # Getting started: Frontend
 
