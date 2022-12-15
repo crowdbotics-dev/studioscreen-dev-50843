@@ -61,6 +61,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-articles](modules/articles)
 - [react-native-chat](modules/chat)
 - [django-articles](backend/modules)
+- [react-native-maps](modules/maps)
 
 # Getting started: Frontend
 

@@ -1038,7 +1038,7 @@
 "@modules/articles@file:./modules/articles":
   version "1.0.0"
 
-"@modules/chat@file:./modules/chat/":
+"@modules/chat@file:./modules/chat":
   version "1.1.0"
   dependencies:
     is-url "^1.2.4"
@@ -1051,6 +1051,9 @@
     react-native-video "5.2.0"
     uuid "^8.3.2"
     zustand "^3.5.13"
+
+"@modules/maps@file:./modules/maps/":
+  version "1.0.0"
 
 "@react-native-community/checkbox@0.5.10":
   version "0.5.10"
@@ -6580,7 +6583,7 @@ prompts@^2.0.1, prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2, prop-types@^15.7.x, prop-types@^15.8.1:
+prop-types@15.8.1, prop-types@^15.6.0, prop-types@^15.7.2, prop-types@^15.7.x, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -6662,6 +6665,11 @@ qs@6.11.0, qs@^6.9.4:
   integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
   dependencies:
     side-channel "^1.0.4"
+
+qs@~6.9.1:
+  version "6.9.7"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.7.tgz#4610846871485e1e048f44ae3b94033f0e675afe"
+  integrity sha512-IhMFgUmuNpyRfxA90umL7ByLlgRXu6tIfKPpF5TmcfRLlLCckfP/g3IQmju6jjpu+Hh8rA+2p6A27ZSPOOHdKw==
 
 query-string@^6.13.6:
   version "6.14.1"
@@ -6812,6 +6820,15 @@ react-native-gifted-chat@^0.16.3:
     react-native-typing-animation "^0.1.7"
     uuid "3.4.0"
 
+react-native-google-places-autocomplete@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/react-native-google-places-autocomplete/-/react-native-google-places-autocomplete-2.4.1.tgz#16b02a330890adf0232954a286f4c3203df06355"
+  integrity sha512-NJrzZ5zsguhTqe0C5tIW9PfxOn2wkWDiGYIBFksHzFOIIURxFPUlO0cJmfOjs5CBIDtMampgNXBdgADExBen5w==
+  dependencies:
+    lodash.debounce "^4.0.8"
+    prop-types "^15.7.2"
+    qs "~6.9.1"
+
 react-native-image-crop-picker@^0.36.2:
   version "0.36.4"
   resolved "https://registry.yarnpkg.com/react-native-image-crop-picker/-/react-native-image-crop-picker-0.36.4.tgz#13a659fc296bea695a88a36de9eacd1e4aebc9b8"
@@ -6838,6 +6855,19 @@ react-native-linear-gradient@^2.4.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.6.2.tgz#56598a76832724b2afa7889747635b5c80948f38"
   integrity sha512-Z8Xxvupsex+9BBFoSYS87bilNPWcRfRsGC0cpJk72Nxb5p2nEkGSBv73xZbEHnW2mUFvP+huYxrVvjZkr/gRjQ==
+
+react-native-maps-directions@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/react-native-maps-directions/-/react-native-maps-directions-1.8.0.tgz#ced452efeb153e54dfb9315480b0ae9539dfbcc7"
+  integrity sha512-7KWfPrvPLU8VP2nEqsnrWlOuylidlRWWDdk3lqT5Nb1q87FeyzNgA7Ib7n6cZlQwH4usTRlJSnzNo/yQ3u4AZw==
+  dependencies:
+    lodash.isequal "^4.5.0"
+    prop-types "^15.6.0"
+
+react-native-maps@0.27.1:
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.27.1.tgz#2f10cd417bb2fd938c9e015b1c9b6d9b1a44b97f"
+  integrity sha512-HygBkZBecTnIVRYrSiLRAvu4OmXOYso/A7c6Cy73HkOh9CgGV8Ap5eBea24tvmFGptjj5Hg8AJ94/YbmWK1Okw==
 
 react-native-parsed-text@0.0.22:
   version "0.0.22"
